@@ -18,6 +18,9 @@ if __name__ == '__main__':
     
     is_update = True if len(sys.argv) == 3 and sys.argv[2] == '--update' else False
     is_installed = OneClick.oc_is_installed()
+    
+    # Debug: Print installation status
+    print(f"Installation check: is_installed={is_installed}, is_update={is_update}")
 
            
     # check start-appname.py    
@@ -29,11 +32,15 @@ if __name__ == '__main__':
    
     
     if not is_installed:
+        print("Starting installation process...")
         OneClick.oc_install_webui(app_name, False)   
         # oc_install_extra_packages(app_name)
     elif is_update:
+        print("Starting update process...")
         OneClick.oc_install_webui(app_name, True)   
         # oc_install_extra_packages(app_name)
+    else:
+        print("Skipping installation (already installed).")
                 
 
     # ABUS - start 

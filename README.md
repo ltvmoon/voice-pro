@@ -11,6 +11,8 @@
     license: LGPL
 -->
 
+
+
 <h1 align="center">
 Voice-Pro
 </h1>
@@ -26,13 +28,7 @@ Voice-Pro
   <a href="https://www.youtube.com/channel/UCbCBWXuVbk-OBp9T4H5JjAA">
     <img src="https://img.shields.io/badge/youtube-d95652.svg?style=flat-square&logo=youtube" alt="youtube" style="height: 20px;">
   </a>
-  <a href="https://www.amazon.com/dp/B0F1LQZ42T">
-    <img src="https://img.shields.io/badge/Amazon-f90.svg?style=flat-square&logo=amazon&logoColor=white" alt="Amazon" style="height: 20px;">
-  </a>
-  <a href="https://r17wvy-t2.myshopify.com">
-    <img src="https://img.shields.io/badge/Shopify-7ab55c.svg?style=flat-square&logo=shopify&logoColor=white" alt="Shopify" style="height: 20px;">
-  </a>
-    <a href="https://www.buymeacoffee.com/abus">
+  <a href="https://www.buymeacoffee.com/abus">
     <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me a Coffee" style="height: 20px;">
   </a>
   <a href="https://github.com/abus-aikorea/voice-pro/releases">
@@ -40,14 +36,13 @@ Voice-Pro
   </a>
   <a href="https://github.com/abus-aikorea/voice-pro/stargazers">
     <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/abus-aikorea/voice-pro">
-  </a>
-
+  </a>  
 </h4>
 
 <p align="center">
     <img src="docs/images/main_page_crop.eng.jpg?raw=true" alt="Dubbing Studio"/>
 </p>
-
+<br />
 
 
 
@@ -81,8 +76,6 @@ Voice-Pro
   </a>
 </p>
 
-
-
 Voice-Pro is a state-of-the-art web app that transforms multimedia content creation. It integrates YouTube video downloading, voice separation, speech recognition, translation, and text-to-speech into a single, powerful tool for creators, researchers, and multilingual professionals.
 - 🔊 Top-tier speech recognition: **Whisper**, **Faster-Whisper**, **Whisper-Timestamped**, **WhisperX**
 - 🎤 Zero-shot voice cloning: **F5-TTS**, **E2-TTS**, **CosyVoice**
@@ -94,16 +87,36 @@ Voice-Pro is a state-of-the-art web app that transforms multimedia content creat
 A robust alternative to **ElevenLabs**, Voice-Pro empowers podcasters, developers, and creators with advanced voice solutions.
 
 ## ⚠️ Please Note
-- There are no plans for updates for the time being. Please leave your requests on the [![GitHub Issues](https://img.shields.io/github/issues/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/issues)  or  [![GitHub Discussions](https://img.shields.io/github/discussions/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/discussions) pages.
-- **Upgrading from v2.x to v3.x**: Not possible. We recommend deleting the `installer_files` folder and running the latest version of `start.bat`.
-- **Upgrading from v3.x to v3.x**: Possible. After downloading the latest code, run `update.bat`.
-- **First-time users**: Please refer to the installation instructions below.
+- Due to [WeConnect](https://www.wctokyoseoul.com) development work, Voice-Pro development and updates are not possible for the time being.
+- We have made all Voice-Pro code open source and completely free. Voice-Pro can now be freely distributed and modified by anyone.
+- It works well on Windows with NVIDIA GPU. Operation on Mac and Linux has not been verified.
+- Please leave your requests on the [![GitHub Issues](https://img.shields.io/github/issues/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/issues)  or  [![GitHub Discussions](https://img.shields.io/github/discussions/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/discussions) pages.
 - **Troubleshooting**: In most cases, issues can be resolved by deleting the `installer_files` folder and then running `configure.bat` followed by `start.bat`.
 
 
 ## 📰 News & History
 
 <details open>
+<summary>version 3.2</summary>
+
+- We have been focusing on [WeConnect](https://www.wctokyoseoul.com) development for the past few months and have not been able to manage Voice-Pro at all. 
+- We have decided to open source all Voice-Pro code.
+- Voice-Pro is completely free and supports Windows, Mac, Linux.
+- [WeConnect](https://www.wctokyoseoul.com) is an application for global cultural exchange.
+- Connect with people from all over the world for meaningful cultural exchanges, language learning, and international friendships.
+
+<p align="center">
+    <img src="docs/images/Hotpot 0.png?raw=true" alt="ScreenShot 0" width="18%"/>
+    <img src="docs/images/Hotpot 1.png?raw=true" alt="ScreenShot 1" width="18%"/>
+    <img src="docs/images/Hotpot 2.png?raw=true" alt="ScreenShot 2" width="18%"/>
+    <img src="docs/images/Hotpot 3.png?raw=true" alt="ScreenShot 3" width="18%"/>
+    <img src="docs/images/Hotpot 4.png?raw=true" alt="ScreenShot 4" width="18%"/>
+</p>
+
+</details>
+
+
+<details>
 <summary>version 3.1</summary>
 
 - 🪄 Support for fine-tuned models of **F5-TTS**
@@ -119,7 +132,7 @@ A robust alternative to **ElevenLabs**, Voice-Pro empowers podcasters, developer
   
 </details>
 
-<details open>
+<details>
 <summary>version 3.0</summary>
 
 - 🔥 Removed the **AI Cover** feature.  
@@ -141,8 +154,6 @@ A robust alternative to **ElevenLabs**, Voice-Pro empowers podcasters, developer
 - 🏪 Subscription offers **unlimited usage** (no 60-second limit) during the subscription period, available via [![Shopify](https://img.shields.io/badge/Shopify-7ab55c.svg?style=flat-square&logo=shopify&logoColor=white)](https://r17wvy-t2.myshopify.com).
   
 </details>
-
-
 
 ## 🎥 YouTube Showcase
 
@@ -215,9 +226,8 @@ A robust alternative to **ElevenLabs**, Voice-Pro empowers podcasters, developer
         <span style="font-size: 16px; font-weight: 600; color: #0f0f0f; line-height: 1.2;">Multi-Lingual Voice Cloning: English - Korean</span>
       </a>
     </td>
-  </tr>  
+  </tr>    
 </table>
-
 
 
 ## ⭐ Key Features
@@ -240,9 +250,7 @@ A robust alternative to **ElevenLabs**, Voice-Pro empowers podcasters, developer
 - Customizable audio inputs
 
 
-
 ## 🤖 WebUI
-
 
 ### `Dubbing Studio` Tab
 - All-in-one hub: YouTube downloads, noise removal, subtitles, translation, & TTS
@@ -284,7 +292,6 @@ A robust alternative to **ElevenLabs**, Voice-Pro empowers podcasters, developer
 
 - Please request the voice you want to add on the Issues page. [Issues](https://github.com/abus-aikorea/voice-pro/issues/50)  
 
-
 <details>
 <summary>
 English
@@ -292,57 +299,57 @@ English
 
 <table>
   <tr>
-    <td align="center"><img src="docs/celebrities30s/English/Andrew Bustamante.jpg" width="150"><br>Andrew Bustamante</td>
-    <td align="center"><img src="docs/celebrities30s/English/Andrew Huberman.jpg" width="150"><br>Andrew Huberman</td>
-    <td align="center"><img src="docs/celebrities30s/English/Avi Loeb.jpg" width="150"><br>Avi Loeb</td>
-    <td align="center"><img src="docs/celebrities30s/English/Ben Shapiro.jpg" width="150"><br>Ben Shapiro</td>
-    <td align="center"><img src="docs/celebrities30s/English/Brett Johnson.jpg" width="150"><br>Brett Johnson</td>
-    <td align="center"><img src="docs/celebrities30s/English/Brian Keating.jpg" width="150"><br>Brian Keating</td>
+    <td align="center"><img src="celebrities30sREADME/English/Andrew Bustamante.jpg" width="150"><br>Andrew Bustamante</td>
+    <td align="center"><img src="celebrities30sREADME/English/Andrew Huberman.jpg" width="150"><br>Andrew Huberman</td>
+    <td align="center"><img src="celebrities30sREADME/English/Avi Loeb.jpg" width="150"><br>Avi Loeb</td>
+    <td align="center"><img src="celebrities30sREADME/English/Ben Shapiro.jpg" width="150"><br>Ben Shapiro</td>
+    <td align="center"><img src="celebrities30sREADME/English/Brett Johnson.jpg" width="150"><br>Brett Johnson</td>
+    <td align="center"><img src="celebrities30sREADME/English/Brian Keating.jpg" width="150"><br>Brian Keating</td>
   </tr>
   <tr>
-    <td align="center"><img src="docs/celebrities30s/English/Coffeezilla.jpg" width="150"><br>Coffeezilla</td>
-    <td align="center"><img src="docs/celebrities30s/English/Dan Carlin.jpg" width="150"><br>Dan Carlin</td>
-    <td align="center"><img src="docs/celebrities30s/English/David Buss.jpg" width="150"><br>David Buss</td>
-    <td align="center"><img src="docs/celebrities30s/English/David Fravor.jpg" width="150"><br>David Fravor</td>
-    <td align="center"><img src="docs/celebrities30s/English/David Kipping.jpg" width="150"><br>David Kipping</td>
-    <td align="center"><img src="docs/celebrities30s/English/Dennis Whyte.jpg" width="150"><br>Dennis Whyte</td>
+    <td align="center"><img src="celebrities30sREADME/English/Coffeezilla.jpg" width="150"><br>Coffeezilla</td>
+    <td align="center"><img src="celebrities30sREADME/English/Dan Carlin.jpg" width="150"><br>Dan Carlin</td>
+    <td align="center"><img src="celebrities30sREADME/English/David Buss.jpg" width="150"><br>David Buss</td>
+    <td align="center"><img src="celebrities30sREADME/English/David Fravor.jpg" width="150"><br>David Fravor</td>
+    <td align="center"><img src="celebrities30sREADME/English/David Kipping.jpg" width="150"><br>David Kipping</td>
+    <td align="center"><img src="celebrities30sREADME/English/Dennis Whyte.jpg" width="150"><br>Dennis Whyte</td>
   </tr>
   <tr>
-    <td align="center"><img src="docs/celebrities30s/English/Donald Hoffman.jpg" width="150"><br>Donald Hoffman</td>
-    <td align="center"><img src="docs/celebrities30s/English/Donald Trump.jpg" width="150"><br>Donald Trump</td>
-    <td align="center"><img src="docs/celebrities30s/English/Douglas Murray.jpg" width="150"><br>Douglas Murray</td>
-    <td align="center"><img src="docs/celebrities30s/English/Duncan Trussell.jpg" width="150"><br>Duncan Trussell</td>
-    <td align="center"><img src="docs/celebrities30s/English/Elon Musk.jpg" width="150"><br>Elon Musk</td>
-    <td align="center"><img src="docs/celebrities30s/English/Garry Nolan.jpg" width="150"><br>Garry Nolan</td>
+    <td align="center"><img src="celebrities30sREADME/English/Donald Hoffman.jpg" width="150"><br>Donald Hoffman</td>
+    <td align="center"><img src="celebrities30sREADME/English/Donald Trump.jpg" width="150"><br>Donald Trump</td>
+    <td align="center"><img src="celebrities30sREADME/English/Douglas Murray.jpg" width="150"><br>Douglas Murray</td>
+    <td align="center"><img src="celebrities30sREADME/English/Duncan Trussell.jpg" width="150"><br>Duncan Trussell</td>
+    <td align="center"><img src="celebrities30sREADME/English/Elon Musk.jpg" width="150"><br>Elon Musk</td>
+    <td align="center"><img src="celebrities30sREADME/English/Garry Nolan.jpg" width="150"><br>Garry Nolan</td>
   </tr>
   <tr>
-    <td align="center"><img src="docs/celebrities30s/English/Jack Barsky.jpg" width="150"><br>Jack Barsky</td>
-    <td align="center"><img src="docs/celebrities30s/English/James Sexton.jpg" width="150"><br>James Sexton</td>
-    <td align="center"><img src="docs/celebrities30s/English/Jeff Bezos.jpg" width="150"><br>Jeff Bezos</td>
-    <td align="center"><img src="docs/celebrities30s/English/Joe Rogan.jpg" width="150"><br>Joe Rogan</td>
-    <td align="center"><img src="docs/celebrities30s/English/John Mearsheimer.jpg" width="150"><br>John Mearsheimer</td>
-    <td align="center"><img src="docs/celebrities30s/English/Jordan Peterson.jpg" width="150"><br>Jordan Peterson</td>
+    <td align="center"><img src="celebrities30sREADME/English/Jack Barsky.jpg" width="150"><br>Jack Barsky</td>
+    <td align="center"><img src="celebrities30sREADME/English/James Sexton.jpg" width="150"><br>James Sexton</td>
+    <td align="center"><img src="celebrities30sREADME/English/Jeff Bezos.jpg" width="150"><br>Jeff Bezos</td>
+    <td align="center"><img src="celebrities30sREADME/English/Joe Rogan.jpg" width="150"><br>Joe Rogan</td>
+    <td align="center"><img src="celebrities30sREADME/English/John Mearsheimer.jpg" width="150"><br>John Mearsheimer</td>
+    <td align="center"><img src="celebrities30sREADME/English/Jordan Peterson.jpg" width="150"><br>Jordan Peterson</td>
   </tr>
   <tr>
-    <td align="center"><img src="docs/celebrities30s/English/Kanye 'Ye' West.jpg" width="150"><br>Kanye 'Ye' West</td>
-    <td align="center"><img src="docs/celebrities30s/English/Mark Zuckerberg.jpg" width="150"><br>Mark Zuckerberg</td>
-    <td align="center"><img src="docs/celebrities30s/English/Michael Levin.jpg" width="150"><br>Michael Levin</td>
-    <td align="center"><img src="docs/celebrities30s/English/Michael Saylor.jpg" width="150"><br>Michael Saylor</td>
-    <td align="center"><img src="docs/celebrities30s/English/Michio Kaku.jpg" width="150"><br>Michio Kaku</td>
-    <td align="center"><img src="docs/celebrities30s/English/MrBeast.jpg" width="150"><br>MrBeast</td>
+    <td align="center"><img src="celebrities30sREADME/English/Kanye 'Ye' West.jpg" width="150"><br>Kanye 'Ye' West</td>
+    <td align="center"><img src="celebrities30sREADME/English/Mark Zuckerberg.jpg" width="150"><br>Mark Zuckerberg</td>
+    <td align="center"><img src="celebrities30sREADME/English/Michael Levin.jpg" width="150"><br>Michael Levin</td>
+    <td align="center"><img src="celebrities30sREADME/English/Michael Saylor.jpg" width="150"><br>Michael Saylor</td>
+    <td align="center"><img src="celebrities30sREADME/English/Michio Kaku.jpg" width="150"><br>Michio Kaku</td>
+    <td align="center"><img src="celebrities30sREADME/English/MrBeast.jpg" width="150"><br>MrBeast</td>
   </tr>
   <tr>
-    <td align="center"><img src="docs/celebrities30s/English/Nick Lane.jpg" width="150"><br>Nick Lane</td>
-    <td align="center"><img src="docs/celebrities30s/English/Paul Rosolie.jpg" width="150"><br>Paul Rosolie</td>
-    <td align="center"><img src="docs/celebrities30s/English/Ryan Graves.jpg" width="150"><br>Ryan Graves</td>
-    <td align="center"><img src="docs/celebrities30s/English/Sam Altman.jpg" width="150"><br>Sam Altman</td>
-    <td align="center"><img src="docs/celebrities30s/English/Sam Harris.jpg" width="150"><br>Sam Harris</td>
-    <td align="center"><img src="docs/celebrities30s/English/Stephen Wolfram.jpg" width="150"><br>Stephen Wolfram</td>
+    <td align="center"><img src="celebrities30sREADME/English/Nick Lane.jpg" width="150"><br>Nick Lane</td>
+    <td align="center"><img src="celebrities30sREADME/English/Paul Rosolie.jpg" width="150"><br>Paul Rosolie</td>
+    <td align="center"><img src="celebrities30sREADME/English/Ryan Graves.jpg" width="150"><br>Ryan Graves</td>
+    <td align="center"><img src="celebrities30sREADME/English/Sam Altman.jpg" width="150"><br>Sam Altman</td>
+    <td align="center"><img src="celebrities30sREADME/English/Sam Harris.jpg" width="150"><br>Sam Harris</td>
+    <td align="center"><img src="celebrities30sREADME/English/Stephen Wolfram.jpg" width="150"><br>Stephen Wolfram</td>
   </tr>
   <tr>
-    <td align="center"><img src="docs/celebrities30s/English/Tucker Carlson.jpg" width="150"><br>Tucker Carlson</td>
-    <td align="center"><img src="docs/celebrities30s/English/Vitalik Buterin.jpg" width="150"><br>Vitalik Buterin</td>
-    <td align="center"><img src="docs/celebrities30s/English/Yuval Harari.jpg" width="150"><br>Yuval Harari</td>
+    <td align="center"><img src="celebrities30sREADME/English/Tucker Carlson.jpg" width="150"><br>Tucker Carlson</td>
+    <td align="center"><img src="celebrities30sREADME/English/Vitalik Buterin.jpg" width="150"><br>Vitalik Buterin</td>
+    <td align="center"><img src="celebrities30sREADME/English/Yuval Harari.jpg" width="150"><br>Yuval Harari</td>
     <td></td>
     <td></td>
     <td></td>
@@ -358,12 +365,12 @@ Chinese
 
 <table>
   <tr>
-    <td align="center"><img src="docs/celebrities30s/Chinese/Dilraba Dilmurat.jpg" width="150"><br>迪丽热巴 (Dílì Rèbā)</td>
-    <td align="center"><img src="docs/celebrities30s/Chinese/Jolin Tsai.jpg" width="150"><br>蔡依林 (Cài Yīlín)</td>
-    <td align="center"><img src="docs/celebrities30s/Chinese/Kris Wu.jpg" width="150"><br>吴亦凡 (Wú Yìfán)</td>
-    <td align="center"><img src="docs/celebrities30s/Chinese/Li Yifeng.jpg" width="150"><br>李易峰 (Lǐ Yìfēng)</td>
-    <td align="center"><img src="docs/celebrities30s/Chinese/Yang Mi.jpg" width="150"><br>杨幂 (Yáng Mì)</td>
-    <td align="center"><img src="docs/celebrities30s/Chinese/Zhao Liying.jpg" width="150"><br>赵丽颖 (Zhào Lìyǐng)</td>
+    <td align="center"><img src="celebrities30sREADME/Chinese/Dilraba Dilmurat.jpg" width="150"><br>迪丽热巴 (Dílì Rèbā)</td>
+    <td align="center"><img src="celebrities30sREADME/Chinese/Jolin Tsai.jpg" width="150"><br>蔡依林 (Cài Yīlín)</td>
+    <td align="center"><img src="celebrities30sREADME/Chinese/Kris Wu.jpg" width="150"><br>吴亦凡 (Wú Yìfán)</td>
+    <td align="center"><img src="celebrities30sREADME/Chinese/Li Yifeng.jpg" width="150"><br>李易峰 (Lǐ Yìfēng)</td>
+    <td align="center"><img src="celebrities30sREADME/Chinese/Yang Mi.jpg" width="150"><br>杨幂 (Yáng Mì)</td>
+    <td align="center"><img src="celebrities30sREADME/Chinese/Zhao Liying.jpg" width="150"><br>赵丽颖 (Zhào Lìyǐng)</td>
   </tr>
 </table>
 </details>
@@ -376,12 +383,12 @@ Korean
 
 <table>
   <tr>
-    <td align="center"><img src="docs/celebrities30s/Korean/BTS Jin.jpg" width="150"><br>BTS 진 (Jin)</td>
-    <td align="center"><img src="docs/celebrities30s/Korean/BTS RM.jpg" width="150"><br>BTS RM</td>
-    <td align="center"><img src="docs/celebrities30s/Korean/IU.jpg" width="150"><br>IU (아이유)</td>
-    <td align="center"><img src="docs/celebrities30s/Korean/LeeByungHun.jpg" width="150"><br>이병헌</td>
-    <td align="center"><img src="docs/celebrities30s/Korean/LeeJungJae.jpg" width="150"><br>이정재</td>
-    <td align="center"><img src="docs/celebrities30s/Korean/YouJaeSuk.jpg" width="150"><br>유재석</td>
+    <td align="center"><img src="celebrities30sREADME/Korean/BTS Jin.jpg" width="150"><br>BTS 진 (Jin)</td>
+    <td align="center"><img src="celebrities30sREADME/Korean/BTS RM.jpg" width="150"><br>BTS RM</td>
+    <td align="center"><img src="celebrities30sREADME/Korean/IU.jpg" width="150"><br>IU (아이유)</td>
+    <td align="center"><img src="celebrities30sREADME/Korean/LeeByungHun.jpg" width="150"><br>이병헌</td>
+    <td align="center"><img src="celebrities30sREADME/Korean/LeeJungJae.jpg" width="150"><br>이정재</td>
+    <td align="center"><img src="celebrities30sREADME/Korean/YouJaeSuk.jpg" width="150"><br>유재석</td>
   </tr>
 </table>
 </details>
@@ -394,7 +401,7 @@ Japanese
 
 <table>
   <tr>
-    <td align="center"><img src="docs/celebrities30s/Japanese/Ayase Haruka.jpg" width="150"><br>綾瀬はるか (Ayase Haruka)</td>
+    <td align="center"><img src="celebrities30sREADME/Japanese/Ayase Haruka.jpg" width="150"><br>綾瀬はるか (Ayase Haruka)</td>
     <td></td>
     <td></td>
     <td></td>
@@ -405,8 +412,9 @@ Japanese
 </details>
 <br />
 
+
 ## 💻 System Requirements
-- **OS:** Windows 10/11 (64-bit) ※ Linux/Mac unsupported
+- **OS:** Windows 10/11 (64-bit), Linux, Mac
 - **GPU:** NVIDIA with CUDA 12.4 (recommended)
 - **VRAM:** 4GB+ (8GB+ preferred)
 - **RAM:** 4GB+
@@ -417,7 +425,7 @@ Japanese
 
 ## 📀 Installation
 
-Install Voice-Pro with ease using **configure.bat** and **start.bat**.
+Install Voice-Pro with ease using **configure.bat** and **start.bat** (use configure.sh and start.sh on Mac/Linux).
 
 
 ### 1. Get the Package
@@ -464,39 +472,14 @@ git clone https://github.com/abus-aikorea/voice-pro.git
 
 
 ## 🚨 Notice
-- This repository offers a **free trial** of Voice-Pro. 
-- The free trial version of Voice-Pro allows you to process up to **60 seconds** of media.
-- The subscription version supports Microsoft Azure TTS and Translator. Purchase it on [![Shopify](https://img.shields.io/badge/Shopify-7ab55c.svg?style=flat-square&logo=shopify&logoColor=white)](https://r17wvy-t2.myshopify.com).
+- Due to [WeConnect](https://www.wctokyoseoul.com) development work, there will be no Voice-Pro updates for the time being.
+- All Voice-Pro code has been made open source. It is now completely free to use.
+- [WeConnect](https://www.wctokyoseoul.com) is a communication platform for global cultural exchange.
 
 
-<table>
-  <tr>
-    <th></th>
-    <th>Trial Version</th>
-    <th>☕Contributor Version</th>
-    <th>Subscription Version</th>
-  </tr>
-  <tr>
-    <th>Media Length Limit</th>
-    <td>60 seconds</td>
-    <td>Unlimited</td>
-    <td>Unlimited</td>
-  </tr>
-  <tr>
-    <th>Translation Service</th>
-    <td>Google Translate (Open Source)</td>
-    <td>Google Translate (Open Source)</td>
-    <td>Azure Translate (Microsoft)</td>
-  </tr>
-  <tr>
-    <th>Text-to-Speech Service</th>
-    <td>Edge TTS (Open Source)</td>
-    <td>Edge TTS (Open Source)</td>
-    <td>Azure TTS (Microsoft)</td>
-  </tr>
-</table>
 
 <br />
+
 
 ## ⏳ SaaS Platforms for Subtitling, Translation, and TTS
 
@@ -514,7 +497,7 @@ The following table lists SaaS platforms supporting subtitling, translation, and
 | **[Transkriptor](https://transkriptor.com)**| ✅         | ✅          | ❌          | $12~$18 (Pay-as-you-go)            | 100+ languages, YouTube link transcription, 99% accuracy, simple editor.      |
 
 ### Cost Calculation Details
-- **[Maestra](https://maestra.ai)**: Premium Plan ($158/month, 1200 credits). 60-min video: 60 credits (subtitles) + 60 credits (translation) + 60 credits (dubbing) = 180 credits. Cost = (180/1200) * $158 = $23.70.[](https://maestra.ai/pricing)
+- **[Maestra](https://maestra.ai/)**: Premium Plan ($158/month, 1200 credits). 60-min video: 60 credits (subtitles) + 60 credits (translation) + 60 credits (dubbing) = 180 credits. Cost = (180/1200) * $158 = $23.70.[](https://maestra.ai/pricing)
 - **[Kapwing](https://www.kapwing.com)**: Pro plan (\~$24/month, limited minutes). Estimated $0.50\~$0.67/min for subtitles+translation+dubbing (based on per-minute pricing trends). 60-min cost: $30\~$40. Exact pricing requires confirmation.
 - **[VEED.IO](https://www.veed.io)**: Pro plan (\~$24/month). Subtitles+translation estimated at $0.40\~$0.60/min. No TTS, so partial processing. 60-min cost: $24\~$36. Confirm at [veed.io](https://veed.io).
 - **[HappyScribe](https://happyscribe.com)**: Pay-as-you-go (\~$0.20/min transcription, $0.20/min translation, $0.20/min dubbing). 60-min cost: $36\~$48 (assuming combined services). Confirm at [happyscribe.com](https://happyscribe.com).
@@ -552,7 +535,7 @@ ABUS Customer Service
 - Any type of contribution is welcome.
 - For inquiries related to purchases, business partnerships, technical tuning, investments, and other matters, please contact us by email. (<abus.aikorea@gmail.com>)."
 - If you like this project, please star this repository. We would greatly appreciate it. ⭐⭐⭐
-- You can support Voice-Pro with a donation here:   
+- You can support Voice-Pro with a donation here:    
 </a>
   <a href="https://www.buymeacoffee.com/abus">
   <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me a Coffee" style="height: 20px;">
@@ -562,11 +545,8 @@ ABUS Customer Service
 
 ## 📬 Contact
 - Email: <abus.aikorea@gmail.com>
-- Homepage (Korean): <https://abuskorea.imweb.me>
+- Homepage (Korean): <https://www.wctokyoseoul.com>
 - Paid Version Purchase: [Shopify (Global)](https://r17wvy-t2.myshopify.com), [Naver (Korean)](https://smartstore.naver.com/abus)
-
-
-
 
 ## 🙏 Credits
 * Demucs: <https://github.com/facebookresearch/demucs>
@@ -584,6 +564,7 @@ ABUS Customer Service
 * spaCy: <https://github.com/explosion/spaCy>
 
 
+
 ## ©️ Copyright
-  <img src="docs/images/ABUS-logo.jpg" width="100" height="100"> by [ABUS](https://abuskorea.imweb.me)
+  <img src="docs/images/ABUS-logo.jpg" width="100" height="100"> by [ABUS](https://www.wctokyoseoul.com)
 

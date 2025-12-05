@@ -27,13 +27,7 @@ Voice-Pro
   <a href="https://www.youtube.com/channel/UCbCBWXuVbk-OBp9T4H5JjAA">
     <img src="https://img.shields.io/badge/youtube-d95652.svg?style=flat-square&logo=youtube" alt="youtube" style="height: 20px;">
   </a>
-  <a href="https://www.amazon.com/dp/B0F1LQZ42T">
-    <img src="https://img.shields.io/badge/Amazon-f90.svg?style=flat-square&logo=amazon&logoColor=white" alt="Amazon" style="height: 20px;">
-  </a>
-  <a href="https://r17wvy-t2.myshopify.com">
-    <img src="https://img.shields.io/badge/Shopify-7ab55c.svg?style=flat-square&logo=shopify&logoColor=white" alt="Shopify" style="height: 20px;">
-  </a>
-    <a href="https://www.buymeacoffee.com/abus">
+  <a href="https://www.buymeacoffee.com/abus">
     <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me a Coffee" style="height: 20px;">
   </a>
   <a href="https://github.com/abus-aikorea/voice-pro/releases">
@@ -84,19 +78,19 @@ Voice-Pro는 멀티미디어 콘텐츠 제작을 혁신하는 최첨단 웹 앱�
 
 - 🔊 최고 수준의 음성 인식: **Whisper**, **Faster-Whisper**, **Whisper-Timestamped**, **WhisperX**
 - 🎤 제로샷 음성 복제: **F5-TTS**, **E2-TTS**, **CosyVoice**
-- 📢 다국어 텍스트-음성 변환: **Edge-TTS**, **kokoro** (유료 버전에는 **Azure TTS** 포함)
+- 📢 다국어 텍스트-음성 변환: **Edge-TTS**, **kokoro** 
 - 🎥 YouTube 처리 및 오디오 추출: **yt-dlp**
-- 🌍 100개 이상의 언어에 대한 즉시 번역: **Deep-Translator** (유료 버전에는 **Azure Translator** 포함)
+- 🌍 100개 이상의 언어에 대한 즉시 번역: **Deep-Translator** 
 
 
 **ElevenLabs**의 강력한 대안으로, Voice-Pro는 팟캐스터, 개발자, 창작자들에게 고급 음성 솔루션을 제공합니다.
 
 
 ## ⚠️ 주의 사항
-- 당분간 업데이트 계획이 없습니다. 요청사항은 [![GitHub Issues](https://img.shields.io/github/issues/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/issues) 혹은 [![GitHub Discussions](https://img.shields.io/github/discussions/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/discussions) 페이지에 남겨주세요.
-- **v2.x에서 v3.x로 업그레이드**: 불가능합니다. `installer_files` 폴더를 삭제하고 최신 버전의 `start.bat`를 실행하는 것을 권장합니다.
-- **v3.x에서 v3.x로 업그레이드**: 가능합니다. 최신 코드를 다운로드한 후 `update.bat`를 실행하세요.
-- **최초 사용자**: 아래 설치 지침을 참조하세요.
+- [WeConnect](https://www.wctokyoseoul.com) 개발 작업으로 인해 Voice-Pro의 개발 및 업데이트는 당분간 불가능합니다.
+- 우리는 Voice-Pro의 모든 코드를 공개하였고 완전 무료로 변경하였습니다. Voice-Pro는 이제 누구나 자유롭게 배포 및 변형이 가능합니다.
+- NVIDIA GPU를 갖춘 Windows 환경에서 잘 작동합니다. Mac, Linux 에서의 동작은 확인하지 못했습니다.
+- 요청사항은 [![GitHub Issues](https://img.shields.io/github/issues/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/issues) 혹은 [![GitHub Discussions](https://img.shields.io/github/discussions/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/discussions) 페이지에 남겨주세요.
 - **문제 해결**: 대부분의 경우, `installer_files` 폴더를 삭제한 후 `configure.bat`를 실행하고 이어서 `start.bat`를 실행하면 문제가 해결됩니다.
 
 
@@ -104,6 +98,24 @@ Voice-Pro는 멀티미디어 콘텐츠 제작을 혁신하는 최첨단 웹 앱�
 ## 📰 뉴스 및 히스토리
 
 <details open>
+<summary>version 3.2</summary>
+
+- 우리는 지난 몇달간 [WeConnect](https://www.wctokyoseoul.com) 개발에 집중하느라 Voice-Pro를 전혀 관리하지 못했습니다. 
+- 앞으로도 이같은 상황이 당분간 계속될 것 같기 때문에, Voice-Pro의 모든 코드를 공개하기로 결정하였습니다.
+- [WeConnect](https://www.wctokyoseoul.com) 는 글로벌 문화 교류를 위한 애플리케이션입니다.
+- 전 세계 각지의 사람들과 연결하여 의미 있는 문화 교류, 언어 학습, 국제적 우정을 쌓을 수 있도록 합니다.
+
+<p align="center">
+    <img src="images/Hotpot 0.png?raw=true" alt="ScreenShot 0" width="18%"/>
+    <img src="images/Hotpot 1.png?raw=true" alt="ScreenShot 1" width="18%"/>
+    <img src="images/Hotpot 2.png?raw=true" alt="ScreenShot 2" width="18%"/>
+    <img src="images/Hotpot 3.png?raw=true" alt="ScreenShot 3" width="18%"/>
+    <img src="images/Hotpot 4.png?raw=true" alt="ScreenShot 4" width="18%"/>
+</p>
+
+</details>
+
+<details>
 <summary>version 3.1</summary>
 
 - 🪄 **F5-TTS**의 미세 조정 모델 지원
@@ -119,7 +131,7 @@ Voice-Pro는 멀티미디어 콘텐츠 제작을 혁신하는 최첨단 웹 앱�
   
 </details>
 
-<details open>
+<details>
 <summary>버전 3.0</summary>
 
 - 🔥 **AI Cover** 기능이 제거되었습니다.  
@@ -393,7 +405,7 @@ Japanese
 
 
 ## 💻 시스템 요구사항
-- **OS:** Windows 10/11 (64비트) ※ Linux/Mac 미지원
+- **OS:** Windows 10/11 (64비트), Linux, Mac
 - **GPU:** CUDA 12.4 지원 NVIDIA (권장)
 - **VRAM:** 4GB 이상 (8GB 이상 권장)
 - **RAM:** 4GB 이상
@@ -404,7 +416,7 @@ Japanese
 
 ## 📀 설치
 
-**configure.bat** 및 **start.bat**으로 Voice-Pro를 쉽게 설치하세요.
+**configure.bat** 및 **start.bat**으로 Voice-Pro를 쉽게 설치하세요. (Mac/Linux 에서는 configure.sh 및 start.sh)
 
 ### 1. 패키지 준비
 - [![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/)에서 최신 릴리스 다운로드 (**Source code (zip)**)
@@ -449,39 +461,11 @@ git clone https://github.com/abus-aikorea/voice-pro.git
 
 
 ## 🚨 공지
-- 이 저장소는 Voice-Pro의 **무료 체험판**을 제공합니다.
-- Voice-Pro의 무료 체험판 버전은 최대 **60초**의 미디어를 처리할 수 있습니다.
-- Subscription 버전은 Microsoft Azure TTS 와 Translator 를 지원합니다. [![Shopify](https://img.shields.io/badge/Shopify-7ab55c.svg?style=flat-square&logo=shopify&logoColor=white)](https://r17wvy-t2.myshopify.com) 에서 구매하세요..
-
-<table>
-  <tr>
-    <th></th>
-    <th>Trial Version</th>
-    <th>☕Contributor Version</th>
-    <th>Subscription Version</th>
-  </tr>
-  <tr>
-    <th>Media Length Limit</th>
-    <td>60 seconds</td>
-    <td>Unlimited</td>
-    <td>Unlimited</td>
-  </tr>
-  <tr>
-    <th>Translation Service</th>
-    <td>Google Translate (Open Source)</td>
-    <td>Google Translate (Open Source)</td>
-    <td>Azure Translate (Microsoft)</td>
-  </tr>
-  <tr>
-    <th>Text-to-Speech Service</th>
-    <td>Edge TTS (Open Source)</td>
-    <td>Edge TTS (Open Source)</td>
-    <td>Azure TTS (Microsoft)</td>
-  </tr>
-</table>
+- [WeConnect](https://www.wctokyoseoul.com) 개발 작업으로 인해 당분간 Voice-Pro의 업데이트는 없습니다.
+- Voice-Pro의 모든 코드를 공개하였습니다. 완전 무료로 사용가능합니다.
+- [WeConnect](https://www.wctokyoseoul.com)는 글로벌 문화 교류를 위한 커뮤니케이션 플랫폼입니다. 
 
 
-<br />
 
 ## ⏳ 자막 제작, 번역, TTS를 위한 SaaS 플랫폼
 
@@ -552,8 +536,7 @@ ABUS 고객 서비스
 
 ## 📬 연락처
 - Email: <abus.aikorea@gmail.com>
-- Homepage (Korean): <https://abuskorea.imweb.me>
-- 유료버전 구매매: [Shopify (Global)](https://r17wvy-t2.myshopify.com), [Naver (Korean)](https://smartstore.naver.com/abus)
+- Homepage (Korean): <https://www.wctokyoseoul.com>
 
 
 
@@ -573,5 +556,5 @@ ABUS 고객 서비스
 * spaCy: <https://github.com/explosion/spaCy>
 
 ## ©️ 저작권 정보
-  <img src="images/ABUS-logo.jpg" width="100" height="100"> by [ABUS](https://abuskorea.imweb.me)
+  <img src="images/ABUS-logo.jpg" width="100" height="100"> by [ABUS](https://www.wctokyoseoul.com)
 

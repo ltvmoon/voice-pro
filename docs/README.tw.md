@@ -26,12 +26,6 @@ Voice-Pro
   <a href="https://www.youtube.com/channel/UCbCBWXuVbk-OBp9T4H5JjAA">
     <img src="https://img.shields.io/badge/youtube-d95652.svg?style=flat-square&logo=youtube" alt="youtube" style="height: 20px;">
   </a>
-  <a href="https://www.amazon.sg/dp/B0F1LQZ42T">
-    <img src="https://img.shields.io/badge/Amazon-f90.svg?style=flat-square&logo=amazon&logoColor=white" alt="Amazon" style="height: 20px;">
-  </a>
-  <a href="https://r17wvy-t2.myshopify.com">
-    <img src="https://img.shields.io/badge/Shopify-7ab55c.svg?style=flat-square&logo=shopify&logoColor=white" alt="Shopify" style="height: 20px;">
-  </a>
   <a href="https://www.buymeacoffee.com/abus">
     <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me a Coffee" style="height: 20px;">
   </a>  
@@ -91,10 +85,10 @@ Voice-Pro是一款革新多媒體內容製作的先進網頁應用程式。它�
 作為**ElevenLabs**的強大替代方案，Voice-Pro為播客主持人、開發者和創作者提供進階語音解決方案。
 
 ## ⚠️ 請注意
-- 目前暫無更新計畫。請將您的請求留在 [![GitHub Issues](https://img.shields.io/github/issues/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/issues)  或 [![GitHub Discussions](https://img.shields.io/github/discussions/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/discussions)  頁面。
-- **從v2.x升級到v3.x**: 不可能。我們建議刪除`installer_files`文件夾並運行最新版本的`start.bat`。
-- **從v3.x升級到v3.x**: 可以。下載最新代碼後，運行`update.bat`。
-- **首次用戶**: 請參閱下面的安裝說明。
+- 由於[WeConnect](https://www.wctokyoseoul.com)開發工作，Voice-Pro的開發和更新暫時無法進行。
+- 我們已經公開了所有Voice-Pro代碼並完全免費。Voice-Pro現在可以自由分發和修改。
+- 在配備NVIDIA GPU的Windows環境下運行良好。Mac和Linux上的運行尚未驗證。
+- 請將您的請求留在 [![GitHub Issues](https://img.shields.io/github/issues/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/issues)  或 [![GitHub Discussions](https://img.shields.io/github/discussions/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/discussions)  頁面。
 - **故障排除**: 在大多數情況下，刪除`installer_files`文件夾，然後依次運行`configure.bat`和`start.bat`即可解決問題。
 
 
@@ -102,6 +96,25 @@ Voice-Pro是一款革新多媒體內容製作的先進網頁應用程式。它�
 ## 📰 新聞與歷史
 
 <details open>
+<summary>version 3.2</summary>
+
+- 我們過去幾個月一直專注於[WeConnect](https://www.wctokyoseoul.com)開發，完全無法管理Voice-Pro。 
+- 我們決定開源所有Voice-Pro代碼。
+- Voice-Pro完全免費，支援Windows、Mac、Linux。
+- [WeConnect](https://www.wctokyoseoul.com)是一個用於全球文化交流的應用程式。
+- 與世界各地的 人們 連接，進行有意義的文化交流、語言學習和國際友誼。
+
+<p align="center">
+    <img src="images/Hotpot 0.png?raw=true" alt="ScreenShot 0" width="18%"/>
+    <img src="images/Hotpot 1.png?raw=true" alt="ScreenShot 1" width="18%"/>
+    <img src="images/Hotpot 2.png?raw=true" alt="ScreenShot 2" width="18%"/>
+    <img src="images/Hotpot 3.png?raw=true" alt="ScreenShot 3" width="18%"/>
+    <img src="images/Hotpot 4.png?raw=true" alt="ScreenShot 4" width="18%"/>
+</p>
+
+</details>
+
+<details>
 <summary>version 3.1</summary>
 
 - 🪄 支援 **F5-TTS** 的微調模型
@@ -117,7 +130,7 @@ Voice-Pro是一款革新多媒體內容製作的先進網頁應用程式。它�
   
 </details>
 
-<details open>
+<details>
 <summary>版本 3.0</summary>
 
 - 🔥 **AI Cover**功能已移除。  
@@ -392,7 +405,7 @@ Japanese
 
 
 ## 💻 系統需求
-- **作業系統：** Windows 10/11（64位元）※不支援Linux/Mac
+- **作業系統：** Windows 10/11（64位元）、Linux、Mac
 - **顯示卡：** 支援CUDA 12.4的NVIDIA顯示卡（建議）
 - **顯示記憶體：** 4GB以上（建議8GB以上）
 - **記憶體：** 4GB以上
@@ -401,7 +414,7 @@ Japanese
 
 ## 📀 安裝
 
-使用**configure.bat**和**start.bat**輕鬆安裝Voice-Pro。
+使用**configure.bat**和**start.bat**輕鬆安裝Voice-Pro（Mac/Linux上使用configure.sh和start.sh）。
 
 ### 1. 準備套件
 - 從[![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/)下載最新發布版本（**Source code (zip)**）
@@ -444,37 +457,11 @@ git clone https://github.com/abus-aikorea/voice-pro.git
 
 
 ## 🚨 通知
-- 此儲存庫提供 Voice-Pro 的**免費試用版**。
-- Voice-Pro 的免費試用版允許您處理長達 **60 秒**的媒體。
-- 訂閱版本支援 Microsoft Azure TTS 和 Translator。請在 [![Shopify](https://img.shields.io/badge/Shopify-7ab55c.svg?style=flat-square&logo=shopify&logoColor=white)](https://r17wvy-t2.myshopify.com) 上購買。
+- 由於[WeConnect](https://www.wctokyoseoul.com)開發工作，暫時不會有Voice-Pro更新。
+- 所有Voice-Pro代碼已公開。現在完全免費使用。
+- [WeConnect](https://www.wctokyoseoul.com)是一個面向全球文化交流的通信平台。
 
 
-<table>
-  <tr>
-    <th></th>
-    <th>Trial Version</th>
-    <th>☕Contributor Version</th>
-    <th>Subscription Version</th>
-  </tr>
-  <tr>
-    <th>Media Length Limit</th>
-    <td>60 seconds</td>
-    <td>Unlimited</td>
-    <td>Unlimited</td>
-  </tr>
-  <tr>
-    <th>Translation Service</th>
-    <td>Google Translate (Open Source)</td>
-    <td>Google Translate (Open Source)</td>
-    <td>Azure Translate (Microsoft)</td>
-  </tr>
-  <tr>
-    <th>Text-to-Speech Service</th>
-    <td>Edge TTS (Open Source)</td>
-    <td>Edge TTS (Open Source)</td>
-    <td>Azure TTS (Microsoft)</td>
-  </tr>
-</table>
 
 <br />
 
@@ -546,8 +533,7 @@ ABUS客戶服務
 
 ## 📬 聯絡方式
 - Email: <abus.aikorea@gmail.com>
-- Homepage (Korean): <https://abuskorea.imweb.me>
-- 付費版本購買: [Shopify (Global)](https://r17wvy-t2.myshopify.com), [Naver (Korean)](https://smartstore.naver.com/abus)
+- Homepage (Korean): <https://www.wctokyoseoul.com>
 
 
 
@@ -567,4 +553,4 @@ ABUS客戶服務
 * spaCy: <https://github.com/explosion/spaCy>
 
 ## ©️ 版權資訊
-  <img src="images/ABUS-logo.jpg" width="100" height="100"> by [ABUS](https://abuskorea.imweb.me)
+  <img src="images/ABUS-logo.jpg" width="100" height="100"> by [ABUS](https://www.wctokyoseoul.com)

@@ -17,13 +17,12 @@ font-roboto
 gradio==5.14.0
 numpy<2
 pydantic==2.9.1
-yt-dlp==2025.09.26
+yt-dlp==2025.11.12
 browser_cookie3
 json5
 more_itertools
 pyyaml
 pandas==1.5.0
-Cython
 huggingface-hub==0.27.1
 cached_path==1.6.7
 # one-click
@@ -81,3 +80,4 @@ spacy[cuda12x]==3.7.5
 # etc
 onnxruntime-gpu==1.20.1
 nvidia-cudnn-cu12==8.9.7.29
+python-dotenv

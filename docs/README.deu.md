@@ -26,13 +26,7 @@ Voice-Pro
   <a href="https://www.youtube.com/channel/UCbCBWXuVbk-OBp9T4H5JjAA">
     <img src="https://img.shields.io/badge/youtube-d95652.svg?style=flat-square&logo=youtube" alt="youtube" style="height: 20px;">
   </a>
-  <a href="https://www.amazon.de/dp/B0F1LQZ42T">
-    <img src="https://img.shields.io/badge/Amazon-f90.svg?style=flat-square&logo=amazon&logoColor=white" alt="Amazon" style="height: 20px;">
-  </a>
-  <a href="https://r17wvy-t2.myshopify.com">
-    <img src="https://img.shields.io/badge/Shopify-7ab55c.svg?style=flat-square&logo=shopify&logoColor=white" alt="Shopify" style="height: 20px;">
-  </a>
-    <a href="https://www.buymeacoffee.com/abus">
+  <a href="https://www.buymeacoffee.com/abus">
     <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me a Coffee" style="height: 20px;">
   </a>
   <a href="https://github.com/abus-aikorea/voice-pro/releases">
@@ -91,10 +85,10 @@ Voice-Pro ist eine hochmoderne Web-App, die die Erstellung von Multimedia-Inhalt
 Als starke Alternative zu **ElevenLabs** bietet Voice-Pro Podcastern, Entwicklern und Kreativen fortschrittliche Sprachlösungen.
 
 ## ⚠️ Bitte beachten
-- Fürs Erste sind keine Updates geplant. Bitte hinterlassen Sie Ihre Anfragen auf den [![GitHub Issues](https://img.shields.io/github/issues/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/issues)- oder [![GitHub Discussions](https://img.shields.io/github/discussions/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/discussions)-Seiten.
-- **Upgrade von v2.x auf v3.x**: Nicht möglich. Wir empfehlen, den Ordner `installer_files` zu löschen und die neueste Version von `start.bat` auszuführen.
-- **Upgrade von v3.x auf v3.x**: Möglich. Nach dem Herunterladen des neuesten Codes führen Sie `update.bat` aus.
-- **Erstbenutzer**: Bitte lesen Sie die Installationsanweisungen unten.
+- Aufgrund der [WeConnect](https://www.wctokyoseoul.com)-Entwicklungsarbeit sind Voice-Pro-Entwicklung und Updates vorerst nicht möglich.
+- Wir haben den gesamten Voice-Pro-Code als Open Source veröffentlicht und vollständig kostenlos gemacht. Voice-Pro kann jetzt von jedem frei verteilt und modifiziert werden.
+- Es funktioniert gut unter Windows mit NVIDIA GPU. Der Betrieb unter Mac und Linux wurde nicht überprüft.
+- Bitte hinterlassen Sie Ihre Anfragen auf den [![GitHub Issues](https://img.shields.io/github/issues/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/issues)- oder [![GitHub Discussions](https://img.shields.io/github/discussions/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/discussions)-Seiten.
 - **Fehlerbehebung**: In den meisten Fällen können Probleme durch das Löschen des `installer_files`-Ordners und das anschließende Ausführen von `configure.bat` gefolgt von `start.bat` behoben werden.
 
 
@@ -102,6 +96,25 @@ Als starke Alternative zu **ElevenLabs** bietet Voice-Pro Podcastern, Entwickler
 ## 📰 Neuigkeiten & Verlauf
 
 <details open>
+<summary>version 3.2</summary>
+
+- Wir haben uns in den letzten Monaten auf die Entwicklung von [WeConnect](https://www.wctokyoseoul.com) konzentriert und konnten Voice-Pro überhaupt nicht verwalten. 
+- Wir haben beschlossen, den gesamten Voice-Pro-Code zu öffnen.
+- Voice-Pro ist vollständig kostenlos und unterstützt Windows, Mac, Linux.
+- [WeConnect](https://www.wctokyoseoul.com) ist eine Anwendung für den globalen Kulturaustausch.
+- Verbinden Sie sich mit Menschen aus aller Welt für bedeutungsvolle Kulturaustausche, Sprachenlernen und internationale Freundschaften.
+
+<p align="center">
+    <img src="images/Hotpot 0.png?raw=true" alt="ScreenShot 0" width="18%"/>
+    <img src="images/Hotpot 1.png?raw=true" alt="ScreenShot 1" width="18%"/>
+    <img src="images/Hotpot 2.png?raw=true" alt="ScreenShot 2" width="18%"/>
+    <img src="images/Hotpot 3.png?raw=true" alt="ScreenShot 3" width="18%"/>
+    <img src="images/Hotpot 4.png?raw=true" alt="ScreenShot 4" width="18%"/>
+</p>
+
+</details>
+
+<details>
 <summary>version 3.1</summary>
 
 - 🪄 Unterstützung für feinabgestimmte Modelle von **F5-TTS**
@@ -117,7 +130,7 @@ Als starke Alternative zu **ElevenLabs** bietet Voice-Pro Podcastern, Entwickler
   
 </details>
 
-<details open>
+<details>
 <summary>Version 3.0</summary>
 
 - 🔥 Die **AI Cover**-Funktion wurde entfernt.  
@@ -392,7 +405,7 @@ Japanese
 
 
 ## 💻 Systemanforderungen
-- **OS:** Windows 10/11 (64-Bit) ※ Linux/Mac nicht unterstützt
+- **OS:** Windows 10/11 (64-Bit), Linux, Mac
 - **GPU:** NVIDIA mit CUDA 12.4 (empfohlen)
 - **VRAM:** 4 GB+ (8 GB+ bevorzugt)
 - **RAM:** 4 GB+
@@ -401,7 +414,7 @@ Japanese
 
 ## 📀 Installation
 
-Mit **configure.bat** und **start.bat** lässt sich Voice-Pro einfach installieren.
+Mit **configure.bat** und **start.bat** lässt sich Voice-Pro einfach installieren (auf Mac/Linux verwenden Sie configure.sh und start.sh).
 
 ### 1. Paketvorbereitung
 - Laden Sie die neueste Version von [![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/) herunter (**Source code (zip)**)
@@ -444,37 +457,10 @@ git clone https://github.com/abus-aikorea/voice-pro.git
 
 
 ## 🚨 Hinweis
-- Dieses Repository bietet eine **kostenlose Testversion** von Voice-Pro.
-- Die kostenlose Testversion von Voice-Pro ermöglicht die Verarbeitung von Medien bis zu **60 Sekunden**.
-- Die Abonnementversion unterstützt Microsoft Azure TTS und Translator. Kaufen Sie es auf [![Shopify](https://img.shields.io/badge/Shopify-7ab55c.svg?style=flat-square&logo=shopify&logoColor=white)](https://r17wvy-t2.myshopify.com).
+- Aufgrund der [WeConnect](https://www.wctokyoseoul.com)-Entwicklungsarbeit wird es vorerst keine Voice-Pro-Updates geben.
+- Der gesamte Voice-Pro-Code wurde als Open Source veröffentlicht. Er kann jetzt vollständig kostenlos verwendet werden.
+- [WeConnect](https://www.wctokyoseoul.com) ist eine Kommunikationsplattform für den globalen Kulturaustausch.
 
-
-<table>
-  <tr>
-    <th></th>
-    <th>Trial Version</th>
-    <th>☕Contributor Version</th>
-    <th>Subscription Version</th>
-  </tr>
-  <tr>
-    <th>Media Length Limit</th>
-    <td>60 seconds</td>
-    <td>Unlimited</td>
-    <td>Unlimited</td>
-  </tr>
-  <tr>
-    <th>Translation Service</th>
-    <td>Google Translate (Open Source)</td>
-    <td>Google Translate (Open Source)</td>
-    <td>Azure Translate (Microsoft)</td>
-  </tr>
-  <tr>
-    <th>Text-to-Speech Service</th>
-    <td>Edge TTS (Open Source)</td>
-    <td>Edge TTS (Open Source)</td>
-    <td>Azure TTS (Microsoft)</td>
-  </tr>
-</table>
 
 <br />
 
@@ -544,8 +530,7 @@ ABUS Kundenservice
 
 ## 📬 Kontakt
 - Email: <abus.aikorea@gmail.com>
-- Homepage (Korean): <https://abuskorea.imweb.me>
-- Kauf der kostenpflichtigen Version: [Shopify (Global)](https://r17wvy-t2.myshopify.com/de), [Naver (Korean)](https://smartstore.naver.com/abus)
+- Homepage (Korean): <https://www.wctokyoseoul.com>
 
 
 
@@ -565,4 +550,4 @@ ABUS Kundenservice
 * spaCy: <https://github.com/explosion/spaCy>
 
 ## ©️ Urheberrecht
-<img src="images/ABUS-logo.jpg" width="100" height="100"> by [ABUS](https://abuskorea.imweb.me)
+  <img src="images/ABUS-logo.jpg" width="100" height="100"> by [ABUS](https://www.wctokyoseoul.com)

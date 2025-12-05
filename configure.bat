@@ -57,7 +57,29 @@ cd /D "%~dp0"
 SET "CHOCPATH=%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\powershell.exe"
 
 :: Install choco
-%CHOCPATH% -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+echo Checking Chocolatey installation...
+where choco >nul 2>&1
+if %errorlevel% neq 0 (
+    echo Installing Chocolatey...
+    %CHOCPATH% -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))"
+    if %errorlevel% neq 0 (
+        echo ERROR: Failed to install Chocolatey.
+        pause
+        exit /b 1
+    )
+    :: Add Chocolatey to PATH for current session
+    if exist "%ALLUSERSPROFILE%\chocolatey\bin" (
+        set "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+    )
+    :: Verify choco is now available
+    where choco >nul 2>&1
+    if %errorlevel% neq 0 (
+        echo WARNING: Chocolatey installed but choco command not found in PATH.
+        echo You may need to restart the command prompt.
+    )
+) else (
+    echo Chocolatey is already installed.
+)
 
 :: Install uv
 @REM %CHOCPATH% -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
@@ -90,30 +112,99 @@ if not "!value!"=="" (
 
 :: install CUDA
 if !IS_NVIDIA_GPU! equ 1 (
-    echo NVIDIA or TESLA GPU is found
+    echo.
+    echo =========================================================================
+    echo NVIDIA GPU detected - Installing CUDA
+    echo =========================================================================
+    echo.
+    echo CUDA 12.3.2 requires NVIDIA driver version 525.60.13 or higher.
+    echo If installation fails, please update your NVIDIA driver first.
     echo.
     @REM choco install -y cuda --version=11.8.0.52206
     choco install -y cuda --version=12.3.2.546
+    if %errorlevel% neq 0 (
+        echo.
+        echo WARNING: CUDA installation failed.
+        echo Possible reasons:
+        echo 1. NVIDIA driver version is too old
+        echo 2. Another CUDA version is already installed
+        echo 3. Insufficient disk space
+        echo.
+        echo Continuing with other installations...
+        echo.
+    ) else (
+        echo CUDA installed successfully.
+    )
 ) else (
     echo NVIDIA or TESLA GPU is not found
+    echo Skipping CUDA installation.
     echo.
 )
 
+echo.
+echo =========================================================================
+echo Installing required packages...
+echo =========================================================================
+echo.
+
+echo Installing git.install...
 choco install -y git.install
-choco install -y ffmpeg
-choco install -y visualstudio2022buildtools --verbose
-choco install -y visualstudio2022-workload-vctools --verbose
-
-
-echo ABUS configure.bat finished.
-pause
-
-:: Rebooting
-for /l %%i in (30,-1,1) do (
-    cls
-    echo.
-    echo ABUS Configure finished.
-    echo System will be rebooted in %%i seconds.
-    timeout /t 1 /nobreak >nul
+if %errorlevel% neq 0 (
+    echo WARNING: git.install installation failed.
 )
-shutdown /r /t 0
+
+echo.
+echo Installing ffmpeg...
+choco install -y ffmpeg
+if %errorlevel% neq 0 (
+    echo WARNING: ffmpeg installation failed.
+)
+
+echo.
+echo Installing Visual Studio 2022 Build Tools...
+echo This may take a very long time (30+ minutes)...
+choco install -y visualstudio2022buildtools --verbose
+if %errorlevel% neq 0 (
+    echo WARNING: visualstudio2022buildtools installation failed.
+)
+
+echo.
+echo Installing Visual Studio 2022 C++ workload...
+choco install -y visualstudio2022-workload-vctools --verbose
+if %errorlevel% neq 0 (
+    echo WARNING: visualstudio2022-workload-vctools installation failed.
+)
+
+echo.
+echo =========================================================================
+echo ABUS configure.bat finished.
+echo =========================================================================
+echo.
+echo Note: LongPathsEnabled requires a system reboot to take effect.
+echo.
+
+:: Ask user about reboot
+set /p REBOOT_NOW="Do you want to reboot now? (Y/N): "
+if /i "!REBOOT_NOW!"=="Y" (
+    echo.
+    echo System will be rebooted in 30 seconds...
+    echo Press Ctrl+C to cancel.
+    echo.
+    for /l %%i in (30,-1,1) do (
+        cls
+        echo.
+        echo =========================================================================
+        echo ABUS Configure finished.
+        echo =========================================================================
+        echo.
+        echo System will be rebooted in %%i seconds.
+        echo Press Ctrl+C to cancel.
+        timeout /t 1 /nobreak >nul 2>&1
+    )
+    shutdown /r /t 0
+) else (
+    echo.
+    echo Please reboot your system manually when ready.
+    echo LongPathsEnabled and CUDA changes require a reboot to take effect.
+    pause
+)

@@ -17,13 +17,12 @@ font-roboto
 gradio==5.14.0
 numpy<2
 pydantic==2.9.1
-yt-dlp==2025.09.26
+yt-dlp==2025.11.12
 browser_cookie3
 json5
 more_itertools
 pyyaml
 pandas==1.5.0
-Cython
 huggingface-hub==0.27.1
 cached_path==1.6.7
 # one-click
@@ -53,10 +52,10 @@ uuid
 pydub==0.25.1
 pyworld==0.3.4
 f5-tts==1.0.8
-# PyTorch 2.5.1
-torch==2.5.1
-torchvision==0.20.1
-torchaudio==2.5.1
+# PyTorch 2.5.1 - installed via conda on macOS, via pip on Linux/Windows
+# torch==2.5.1
+# torchvision==0.20.1
+# torchaudio==2.5.1
 # CosyVoice
 conformer==0.3.2
 diffusers==0.29.0
@@ -76,6 +75,7 @@ misaki[en]
 misaki[ja]
 misaki[zh]
 # spaCy
-spacy[cuda12x]==3.7.5
+spacy==3.7.5
 # etc
 onnxruntime==1.20.1
+python-dotenv
